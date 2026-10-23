@@ -183,7 +183,7 @@
 
 ## 本地运行与开发
 
-项目是静态 HTML / CSS / JavaScript，**无运行时第三方依赖、无构建步骤**。开发与测试需要 Node.js 22 或更新版本。
+项目是静态 HTML / CSS / JavaScript，**无运行时第三方依赖、无构建步骤**。开发与测试使用 Node.js 22.23.4 或更新的 22.x 补丁版（见 `.nvmrc`），CI 使用相同版本。
 
 ```bash
 git clone https://github.com/dethan3/ios-hardware-check.git
